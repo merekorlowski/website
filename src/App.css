@@ -1,0 +1,149 @@
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #491c85;
+  height: 50px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px #000000;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  float: left;
+  font-style: italic;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-nav {
+  list-style-type: none;
+  float: right;
+}
+
+.App-nav li {
+  display: inline-block;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 10px 3px;
+  margin-right: 17.5px;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0s;
+}
+
+.App-nav a:hover {
+  border-bottom: 3px solid #ffffff; 
+  transition: border-bottom 1s;
+}
+
+.Main {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.App-header-content {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header-content, .Main {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .App-header-content, .Main {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .App-header-content, .Main {
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .App-header-content, .Main {
+    width: 1000px;
+  }
+}
+
+.Profile {
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #000000;
+  float: right;
+}
+.About-left-column {
+  height: 100%;
+  display: inline-block;
+  width: 70%;
+  margin-right: 15px;
+}
+.About-right-column {
+  height: 100%;
+  display: inline-block;
+  width: 30%;
+  margin-right: -15px;
+}
+.About-title, .Contact-title {
+  font-size: 30px;
+  color: #474545;
+  margin-top: 0;
+}
+.About-descripton {
+  line-height: 30px;
+  color: #575454;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.About-resume {
+  margin-top: 30px;
+}
+.About-resume a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  display: block;
+  background-color: #6a25c4;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #000000;
+}
+.About-resume a:hover {
+  background-color: #491c85;
+}
+
+.Contact-title {
+  color: #474545;
+  margin-top: 0;
+}
+.Contact-links {
+
+}
+.Chat-icon {
+  font-size: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
